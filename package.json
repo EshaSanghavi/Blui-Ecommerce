@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "install-dependencies": "npm install --force",
+    "install-dependencies": "npm install --legacy-peer-deps",
     "dev": "next dev",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
